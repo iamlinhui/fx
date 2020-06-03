@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.promptness.fx.controller.IndexController">
+   <children>
+      <Button fx:id="bt" layoutX="149.0" layoutY="57.0" mnemonicParsing="false" onAction="#click" text="大按钮" />
+   </children>
+</AnchorPane>
