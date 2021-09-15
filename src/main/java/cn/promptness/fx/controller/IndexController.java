@@ -1,23 +1,22 @@
 package cn.promptness.fx.controller;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import org.springframework.stereotype.Controller;
 
-import java.awt.event.ActionEvent;
-import java.net.URL;
-import java.util.ResourceBundle;
-
-public class IndexController implements Initializable {
+@Controller
+public class IndexController {
 
     @FXML
     private Button bt;
 
-   public void click() {
+    public void initialize() {
 
     }
 
-    public void initialize(URL location, ResourceBundle resources) {
+    @FXML
+    public void click(ActionEvent actionEvent) {
 
     }
 }
